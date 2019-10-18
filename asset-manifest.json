@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Twitch/static/css/main.660f2a49.chunk.css",
+    "main.js": "/Twitch/static/js/main.2f783347.chunk.js",
+    "main.js.map": "/Twitch/static/js/main.2f783347.chunk.js.map",
+    "runtime-main.js": "/Twitch/static/js/runtime-main.b02f4e76.js",
+    "runtime-main.js.map": "/Twitch/static/js/runtime-main.b02f4e76.js.map",
+    "static/css/2.4b451d55.chunk.css": "/Twitch/static/css/2.4b451d55.chunk.css",
+    "static/js/2.cf9ccb96.chunk.js": "/Twitch/static/js/2.cf9ccb96.chunk.js",
+    "static/js/2.cf9ccb96.chunk.js.map": "/Twitch/static/js/2.cf9ccb96.chunk.js.map",
+    "index.html": "/Twitch/index.html",
+    "precache-manifest.9c4955fad8886ff30ad15059a02c8846.js": "/Twitch/precache-manifest.9c4955fad8886ff30ad15059a02c8846.js",
+    "service-worker.js": "/Twitch/service-worker.js",
+    "static/css/2.4b451d55.chunk.css.map": "/Twitch/static/css/2.4b451d55.chunk.css.map",
+    "static/css/main.660f2a49.chunk.css.map": "/Twitch/static/css/main.660f2a49.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b02f4e76.js",
+    "static/css/2.4b451d55.chunk.css",
+    "static/js/2.cf9ccb96.chunk.js",
+    "static/css/main.660f2a49.chunk.css",
+    "static/js/main.2f783347.chunk.js"
+  ]
+}
