@@ -6,11 +6,16 @@ const Games = () => {
     useEffect(() => {
         const fetchData = async () => {
             const result = await api.get('https://api.twitch.tv/helix/games/top')
+            let data = result.data.data
+            let finalData = data.map(game => {
+                let newURL = game.box_art_url.replace('{width}', '300').replace('{height}', '300')
+                game.box_art_url = newURL
+            })
             // console.log(result.data)
             setGames(result.data.data)
         };
         fetchData()
-    })
+    }, [])
     return (
         <div>
             <h1>Most Popular Games</h1>
